@@ -6,12 +6,15 @@
     "start": "node index.js",
     "test": "npm run test:jest && npm run test:mocha",
     "test:jest": "jest",
-    "test:mocha": "mocha tests/mocha/**/*.test.js --exit"
+    "test:mocha": "mocha tests/mocha/**/*.test.js --exit",
+    "cypress:open": "cypress open",
+    "cypress:run": "cypress run"
   },
-
   "jest": {
     "testEnvironment": "node",
-    "testMatch": ["**/tests/jest/**/*.test.js"]
+    "testMatch": [
+      "**/tests/jest/**/*.test.js"
+    ]
   },
   "keywords": [],
   "author": "",
@@ -28,6 +31,7 @@
   },
   "devDependencies": {
     "chai": "^6.2.2",
+    "cypress": "^15.10.0",
     "jest": "^30.2.0",
     "mocha": "^11.7.5",
     "supertest": "^7.2.2"
