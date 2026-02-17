@@ -30,6 +30,8 @@
     "mongoose": "^9.0.0"
   },
   "devDependencies": {
+    "@stryker-mutator/core": "^9.5.1",
+    "@stryker-mutator/jest-runner": "^9.5.1",
     "chai": "^6.2.2",
     "cypress": "^15.10.0",
     "jest": "^30.2.0",
