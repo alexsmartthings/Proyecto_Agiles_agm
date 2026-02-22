@@ -1,0 +1,14 @@
+[
+  {
+    "_id": "60d5ec49f1b2c8b1f8e4b1a1",
+    "ronda": 1,
+    "marcador": { "coronasJ1": 3, "coronasJ2": 1 },
+    "jugado": true
+  },
+  {
+    "_id": "60d5ec49f1b2c8b1f8e4b1a2",
+    "ronda": 2,
+    "marcador": { "coronasJ1": 0, "coronasJ2": 0 },
+    "jugado": false
+  }
+]
